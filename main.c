@@ -19,7 +19,7 @@ void get_terminal_size(int *col, int *row) {
     *col = w.ws_col;
     *row = w.ws_row;
 }
-
+ 
 void init_drops(Drop *drops, int cols) {
     for(int i = 0; i < cols; i++) {
         drops[i].x = i + 1;
